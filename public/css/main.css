@@ -1,0 +1,29 @@
+/* Main CSS Additions */
+.welcome {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+.plumber{
+	text-align: center;
+	padding: 15px;
+}
+.titlewelcome{
+	font-family: 'Lato', Arial;
+	font-size: 40px;
+	padding: 15px 0;
+}
+.welcome-bg{
+	background:#F7F7F7;
+}
+#wrapper {
+    margin: 1% auto 0;
+}    
+.logo{
+	text-align: center;
+	padding-top: 30px;
+}
+.logo img{
+	width: 150px;
+	height: 155px;
+}
