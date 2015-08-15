@@ -28,7 +28,7 @@ class AuthController extends Controller
 
     // Setting for preventing unlimited loging
     private $maxLoginAttempts = 4;
-    //protected $loginPath = '/login';
+    private $lockoutTime = 120;
 
 
     protected $redirectPath = '/dashboard';
